@@ -432,6 +432,7 @@
     padding-top: 50px;
     padding-bottom: 60px;
     width: 100%;
+    
   }
   
   .contact-me h2 {
@@ -456,6 +457,7 @@
   .contact-me .form{
     margin-top: 10px;
     margin-left: 5%;
+    height: 70%;
   }
   .contact-me .form label{
     display: block;
@@ -490,16 +492,18 @@
     border: 0;
     width: 80%;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgb(156, 154, 154);
   }
   .contact-me .form input[type="submit"]{
     background-color: #5d8db4;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px;
     border: 0;
-    margin-top: 25px;
+  
+    margin: 5%;
+    margin-left: 5px;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgb(156, 154, 154);
   }
@@ -591,7 +595,7 @@
     .header .slider .intro h2 {
       
         font:1000 50px consolas;    
-        width:50ch;
+        width:30ch;
         white-space:nowrap;
         overflow:hidden;
         animation:type 4s steps(30) infinite;
@@ -602,7 +606,7 @@
       
       
         font:1000 50px consolas;    
-        width:50ch;
+        width:30ch;
         white-space:nowrap;
         overflow:hidden;
         animation:type 4s steps(30) infinite;

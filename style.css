@@ -565,7 +565,7 @@
   
   /* Start Media Query */
   
-  @media (max-width: 1024px) {
+  @media (max-width: 1145px) {
     *{
       box-sizing: border-box;
     }
@@ -573,10 +573,11 @@
       width: 100%;
       margin: 0;
       
+      
     }
     .header .slider {
       width: 100%;
-      height: 30%;
+      
       object-fit: cover;
     }
     .header .slider .container{ 
@@ -585,22 +586,23 @@
     }
     .header .slider .intro {
       width: 100%;
+      
     }
     .header .slider .intro h2 {
       
-        font:500 20px consolas;    
-        width:20ch;
+        font:1000 50px consolas;    
+        width:50ch;
         white-space:nowrap;
         overflow:hidden;
         animation:type 4s steps(30) infinite;
       }
       
     .header .slider .intro h3 {
-      margin: 0 auto;
+      margin: auto;
       
       
-        font:500 20px consolas;    
-        width:20ch;
+        font:1000 50px consolas;    
+        width:50ch;
         white-space:nowrap;
         overflow:hidden;
         animation:type 4s steps(30) infinite;
@@ -614,10 +616,10 @@
       width: 95%;
     }
     .header .navbar .container {
-      font-size: 10px;
+      font-size: 50%;
     }
     .active {
-      font-size: 10px;
+      font-size: 20%;
     }
    
     .about-me .container {
@@ -644,7 +646,7 @@
     }
     .about-me .image img {
       width: 100%;
-     height: 40%;
+     height: 50%;
       
     }
    
@@ -659,9 +661,9 @@
     }
     
     .about-me .info .hobbies .image img {
-      width: 80px;
-      height: 80px;
-      border-radius: 40px;
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
       object-fit: cover;
       float: left;
       margin-left: 20%;
@@ -688,16 +690,25 @@
     .contact-me .container {
       
       width: 90%;
+      
     }
     .contact-me p, .contact-me address, .contact-me h2 {
       margin-left: 0;
     }
     .contact-me .info, .contact-me .form {
-      width: 100%;
+      width: 80%;
       margin: 0;
+    }
+    .contact-me .form {
+      height: 80%;
     }
     .contact-me .form input{
       margin-bottom: 3%;
+      
+    }
+    #submit {
+      margin: 10%;
+      margin-left: 0;
     }
     .footer .footer-folat {
       width: 95%;
@@ -714,14 +725,14 @@
 
     .direction-l {
       position: relative;
-      width: 41%;
+      width: 46.5%;
       float: left;
       text-align: right;
     }
     
     .direction-r {
       position: relative;
-      width: 41%;
+      width: 46.5%;
       float: right;
     }
     

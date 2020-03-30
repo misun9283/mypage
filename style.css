@@ -619,12 +619,10 @@
     .header .slider .navbar{
       width: 95%;
     }
-    .header .navbar .container {
-      font-size: 50%;
+    .header .navbar .container, .header .navbar .container .active a {
+      font-size: 15pt;
     }
-    .active {
-      font-size: 20%;
-    }
+  
    
     .about-me .container {
       width: 100%;
@@ -673,18 +671,27 @@
       margin-left: 20%;
       
     }
-    .about-me .info, .about-me .info .hobbies  {
+    .about-me .info {
       width: 95%;
     }
-   
+    .about-me .info .hobbies{
+      width: 100th;
+      margin:0;
+    }
  
     .Experience .container {
-      width: 95%;
+      width: 80%;
       padding: 0;
       margin: 0;
+      
+    }
+    .Experience .container h2 {
+      font-size: 30pt;
     }
     .Experience .container .timeline {
-      width: 95%;
+      width: 100%;
+      
+
     }
     .contact-me {
       padding: 0;
@@ -698,20 +705,30 @@
     }
     .contact-me p, .contact-me address, .contact-me h2 {
       margin-left: 0;
+      font-size: large;
     }
     .contact-me .info, .contact-me .form {
       width: 80%;
       margin: 0;
     }
+    .contact-me .info h2 {
+      font-size: 30pt;
+    }
     .contact-me .form {
       height: 80%;
+      font-size: large;
     }
     .contact-me .form input{
       margin-bottom: 3%;
-      
+      height: 7%;
+      font-size: 13pt;
+    }
+    textarea {
+      font-size: 13pt;
+      height: 30%;
     }
     #submit {
-      margin: 10%;
+      margin: 0;
       margin-left: 0;
     }
     .footer .footer-folat {
@@ -778,8 +795,11 @@
 .footer {
   height: 10%;
 }
+.footer ul li {
+  width: 10%;
+}
 .footer ul li a{
-  font-size: 10px;
+  font-size: 15px;
   }
 }
   /* End Media Query */

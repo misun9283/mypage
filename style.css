@@ -569,7 +569,7 @@
   
   /* Start Media Query */
   
-  @media (max-width: 1145px) {
+  @media (max-width: 1125px) {
     *{
       box-sizing: border-box;
     }
